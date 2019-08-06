@@ -1,0 +1,14 @@
+#popular .custom-card {
+    border-radius:  15px;
+    overflow: hidden;
+    border: 0;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+#popular .custom-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.0.8);
+}
+#popular .col-custom {
+    padding: 20px;
+}

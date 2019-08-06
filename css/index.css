@@ -1,0 +1,43 @@
+#home #carousel-news-movies {
+    height: 60vh;
+}
+#home .list-news-movies {
+    height: 100%;
+}
+#home .carousel-item {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#home .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+}
+
+
+#home .now-playing h2,
+#home .top-rated-playing h2 {
+    text-align: center;
+    padding: 15px 0;
+    margin: 50px 0 0 0;
+    background: #505F93;
+    color: #fff;
+}
+#home .now-playing__list li,
+#home .top-rated-playing__list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#home .now-playing__list li h3,
+#home .top-rated-playing__list li h3 {
+    margin: 0;
+    font-size: 16px;
+}
+#home .now-playing__list img,
+#home .top-rated-playing__list img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Películas - Agustin Navarro Galdon</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/00660366ea.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+
+<body id="home">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/logo-movies.png" width="30" height="30" alt="Peliculas" />
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./now-playing.html">Ultimos lanzamientos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./popular.html">Populares</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./search.html">Buscador</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carousel-news-movies" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner list-news-movies"></div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 now-playing">
+                <h2>PELÍCULAS POPULATES</h2>
+                <ul class="list-group list-group-flush now-playing__list"></ul>
+            </div>
+
+            <div class="col-6 top-rated-playing">
+                <h2>PELÍCULAS MEJOR PUNTUADAS</h2>
+                <ul class="list-group list-group-flush top-rated-playing__list"></ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

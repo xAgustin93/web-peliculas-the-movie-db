@@ -2,7 +2,7 @@
 
 _Curso en Udemy donde se explica paso a paso JavaScript ES6._
 
-**Url del Curso:** http://bit.ly/2OxOtZP
+**Url del Curso:** https://courses.agustinnavarrogaldon.com/javascript
 
 
 ## Comenzando 🚀
